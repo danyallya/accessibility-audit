@@ -1,0 +1,1 @@
+export const projectInfo = { slug:"accessibility-audit", title:"Accessibility Audit", summary:"A readable website audit for contrast, keyboard use and common accessibility barriers.", scope:"a11y-audit", locale:"en", direction:"ltr", firstTask:"Store a scan run with URL, rule, severity and remediation hint.", entity:"audit-runs" } as const;
