@@ -4,8 +4,8 @@ Prioritize user risk and evidence over polish. Estimates are focused engineering
 
 ## P0 — safe foundation
 
-- [ ] A11Y-AUDIT-001 — Store a scan run with URL, rule, severity and remediation hint.
-- [ ] A11Y-AUDIT-002 — Validate audit-runs and add empty/error/deletion states.
+- [ ] A11Y-AUDIT-001 — Record a manually entered public-page audit run with URL, rule, severity and remediation hint; implementation is under review in the day 1 feature PR. No page scan is performed.
+- [ ] A11Y-AUDIT-002 — Validate audit records and add empty/error/deletion states; implementation is under review in the day 1 feature PR.
 - [ ] A11Y-AUDIT-003 — Add PostgreSQL migrations and repository tests.
 - [ ] A11Y-AUDIT-004 — Specify offline conflicts, retry, duplicate-submit and recovery.
 
